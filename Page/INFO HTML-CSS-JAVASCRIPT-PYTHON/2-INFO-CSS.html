@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/Styles-HTML-CSS-JCRIPT-PYTHON.css">
+    <link rel="icon" href="/Imag/TECHNO-Information.png" type="image/png">
+    <script src="/Javascript/MicodigoJS.js"></script>
+    <title>TECHNO Information</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">TECHNO Information</p>
+            <button class="menu-btn" onclick="toggleMenu()"> ≡ </button>
+        </div>
+    </header>
+
+    <!-- MENÚ LATERAL -->
+    <div id="sidebar" class="sidebar">
+        <a href="" class="close-btn" onclick="toggleMenu()">x</a>
+        <h2>TECHNO<br> Information</h2>
+        <ul>
+            <li><a href="/INDEX.html">HOME</a>
+                <div>
+                    <ul>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/1-INFO-HTML.html">HTML</a></li>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/2-INFO-CSS.html">CSS</a></li>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/3-INFO-JAVASCRIPT.html">JAVASCRIPT</a></li>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/4-INFO-PYTHON.html">PYTHON</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>  
+    </div>
+    <main class="contenido-principal">
+        <!-- CONTENIDO PRINCIPAL -->
+        <section id="titulo-herocss">
+            <h1>CSS</h1>
+            <div class="img-hero"></div>
+            <div class="titulo-css">
+                <h2>Conceptos Básicos sobre CSS</h2>
+            </div>
+        </section>
+        <section id="que-es-css">
+            <h3>¿Que es CSS?¿Qué se conoce?</h3>
+            <div>
+                <p>
+                    <strong>CSS</strong> (del inglés <strong>Cascading Style Sheets</strong>) <u>"Hojas de Estilo en Cascada"</u>,
+                    es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (incluyendo varios 
+                    lenguajes basados en XML como SVG, MathML o XHTML). CSS describe cómo debe ser renderizado el elemento estructurado en la pantalla, en papel, 
+                    en el habla o en otros medios.
+                    <br><br>
+                    CSS es uno de los lenguajes base de la Open Web y posee una especificación estandarizada por parte del W3C. Anteriormente , el desarrollo de 
+                    varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permitía el versionado de las recomendaciones. 
+                    Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.
+                </p>
+            </div>
+            <h3>Entonces, ¿Para que sirve en realidad CSS?</h3>
+            <div>
+                <p>    
+                    El código CSS hace la vida más fácil al desarrollador front-end al separar las estructura de un documento HTML de su presentación. Dicho de otro modo 
+                    el HTML actuaría como el esqueleto de la web, definiendo su estructura básica, y el CSS añadiría toda la capa de personalización sobre el que la web define su aspecto final.
+                    <br>
+                    Siguiendo este fundamento resulta muy fácil para un diseñador web realizar cambios en la apariencia de una web sin afectar de manera dramática a su contenido. El contenido 
+                    siempre será el mismo, solo cambia como aquello que podemos ver. CSS es fácil de entender y aprender, y nos da un potente control de cómo diseñar los documentos HTML.
+                    Por ejemplo, gracias al CSS podemos definir que todas las etiquetas de un texto cambie su apariencia por aquella que definamos, cambiando colores, fuentes y añadiendo 
+                    efectos sin modificar nada del contenido que sirve de base. Imagina ahora si tuvieras que hacerlo revisando línea a línea.
+                </p>
+            </div>
+            <div class="html-css"></div>
+            <div>
+                <p>
+                    Por tanto la principal ventaja del CSS es que al poder ordenar nuestras preferencias de estilo en un único documento independiente ahorramos una considerable cantidad de 
+                    tiempo al escribir nuestras órdenes CSS en forma de plantilla una única vez para ser aplicado luego a todos las páginas que componen nuestra página web.
+                    <br>
+                    Pero no es la única ventaja. Gracias a esto también el rendimiento de nuestra web se ve incrementado cargando de una manera más rápida pues no es necesario escribir 
+                    etiquetas HTML continuamente y al tener que insertar una menor cantidad de código también su mantenimiento es mucho menor. Un cambio en el CSS y nuestra página se actualizará al momento.
+                </p>
+            </div>
+            <div class="img-queescss"></div>
+        </section>
+        <hr>
+        <section id="master-css">
+            <h3>¿Quien fue el creador de HTML?</h3>
+            <div class="imag-hakonwiumlie"></div>
+            <h4>HÁKON WIUM LIE - Catalogado como creador de CSS</h4>
+            <a href="https://no.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie">
+                +INFO sobre HÁKON WIUM LIE</a>
+            <p>
+                Su implementación fue un cambio radical en el desarrollo web, ya que permitió crear diseños más complejos y estéticamente agradables, mejorando la experiencia del usuario. Además, CSS facilitó la mantenibilidad de las páginas web, ya que los cambios de estilo se podían realizar en un solo lugar y reflejarse en todo el sitio web.
+                <br>
+                Aunque no se tiene un registro exacto de cuál fue la primera página en utilizar ésta tecnología, es indiscutible que ha tenido un impacto profundo en la web. Desde sus inicios, ha evolucionado y se ha expandido, ofreciendo una gama cada vez más amplia de propiedades y capacidades que permiten a los creadores de contenido y desarrolladores web innovar y experimentar con el diseño y la presentación de sus proyectos.
+                <br>
+                Hoy en día, CSS es una herramienta indispensable en el desarrollo web y sigue evolucionando, con nuevas versiones que añaden características como animaciones, transiciones y diseños responsivos que se adaptan a diferentes tamaños de pantalla. La web que conocemos ahora, con su riqueza visual y su interactividad, no sería posible sin el aporte de CSS y la visión
+                de aquellos que contribuyeron a su creación y adopción como estándar.
+                <br>
+                La próxima vez que navegues por tus sitios web favoritos, toma un momento para apreciar el trabajo y la creatividad que hay detrás de cada diseño, y recuerda que todo comenzó con una página simple de texto e hipervínculos. La web ha recorrido un largo camino desde entonces, y CSS ha sido uno de los pilares que ha permitido este impresionante desarrollo.
+            </p>
+        </section>
+
+        <section id="utilidad-funcion-css">
+            <h3>¿Para qué se lo utiliza?¿Cual es su función principal?</h3>
+            <div class="img-utilidad-funcion-css"></div>
+            <p>
+                La función principal de CSS (Cascading Style Sheets) es separar el contenido de una página web (escrito en HTML) de su presentación visual, definiendo cómo se ven los elementos en la pantalla. CSS controla aspectos como el color, la fuente, el tamaño, la disposición, el fondo y los márgenes, permitiendo así crear diseños consistentes,
+                flexibles y fáciles de mantener sin afectar el contenido del documento. 
+            <br><br>
+            </p>
+        </section>
+    </section>
+    </main>
+    <!--FORMULARIO (COMENTARIO DE LOS USUARIOS)-->
+    <section id="comentarios">
+        <div class="seccion-formulario">
+            <h2>TE INVITAMOS A RELLENAR EL SIGUIENTE FORMULARIO</h2>
+            <h4>Te pedimos que rellenes el formulario que aparece aqui abajo,
+            también te pedimos que nos dejes tu comentarios <br>(Opinando sobre lo que te parecio estapagina web)</h4>
+            <h>Con tu respuesta nos ayudas a mejorar cada día nuestra pagina web y  también a seguir con mas usuarios</h>
+            <form action="https://formsubmit.co/lodeldavid20@gmail.com" method="POST" >
+                <!-- Campos del Formulario -->
+                <p> 
+                    <label>Nombre</label>
+                    <input type="text" name="Nombre" maxlength="20" required>
+                </p>
+
+                <p>
+                    <label>Apellido</label>
+                    <input type="text" name="Apellido" maxlength="20" required>
+                </p>
+                <p>
+                    <label>Edad</label>
+                    <input type="number" name="Edad" aria-required="true">
+                </p>
+                <p> 
+                    <label>Comentarios (OBLIGATORIO)</label>
+                    <textarea name="texto" cols="50" rows="6" spellcheck="true" required></textarea>
+                </p>
+                <p> 
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+        </div>
+    </section>
+    <footer>
+            <p>&copy;TECHNOInformation</p>
+    </footer>
+</body>
+</html>

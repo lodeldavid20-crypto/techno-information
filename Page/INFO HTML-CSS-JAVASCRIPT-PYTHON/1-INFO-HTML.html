@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles-HTML-CSS-JCRIPT-PYTHON.css">
+    <link rel="icon" href="/Imag/TECHNO-Information.png" type="image/png">
+    <script src="/Javascript/MicodigoJS.js"></script>
+    <title>TECHNO Information</title>
+</head>
+<body>
+    <header>
+         <div class="container">
+            <p class="logo">TECHNO Information</p>
+            <button class="menu-btn" onclick="toggleMenu()"> ≡ </button>
+         </div>
+       
+    </header>
+
+    <!-- MENÚ LATERAL -->
+    <div id="sidebar" class="sidebar">
+        <a href="" class="close-btn" onclick="toggleMenu()">x</a>
+        <h2>TECHNO<br> Information</h2>
+        <ul>
+            <li><a href="/INDEX.html">HOME</a>
+                <div>
+                    <ul>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/1-INFO-HTML.html">HTML</a></li>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/2-INFO-CSS.html">CSS</a></li>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/3-INFO-JAVASCRIPT.html">JAVASCRIPT</a></li>
+                        <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/4-INFO-PYTHON.html">PYTHON</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>  
+    </div>
+    <main class="contenido-principal">
+        <!-- CONTENIDO PRINCIPAL -->
+        <section id="titulo-hero">
+            <h1>HTML</h1>
+            <div class="imag-hero"></div>
+            <div class="titulo-html">
+                <h2>Conceptos Básicos sobre HTML</h2>
+            </div>
+        </section>
+        <section id="que-es-html">
+            <h3>¿Qué se conoce por HTML?</h3>
+            <div>
+                <p>El <strong>Lenguaje de Marcado de Hipertexto (HTML)</strong> es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título,
+                    este artículo te dará una comprensión básica de HTML y cúal es su función.</p>
+            </div>
+            <h3>Entonces, ¿Qué es HTML en realidad?</h3>
+            <p>HTML <u>no es un lenguaje de programación</u>; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una
+                palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc.</p>
+            <div class="img-queeshtml"></div>
+        </section>
+        <hr>
+        <section id="master-html">
+            <h3>¿Quien fue el creador de HTML?</h3>
+            <div class="imag-timbernerslee"></div>
+            <h4>TIM BERNERS-LEE - CATALOGADO COMO CREADOR DE HTML</h4><a href="https://grupobcc.com/speakers/tim-berners-lee/">
+                +INFO acerca de TIM BERNERS-LEE</a>
+            <p>El creador del lenguaje HTML es <strong>Tim Berners-Lee</strong>, quien propuso un sistema de hipertexto para compartir documentos en el CERN a principios de los 80. Sin embargo, hoy en día se usan editores para crear y editar código HTML. Algunos ejemplos populares y gratuitos incluyen Visual Studio Code, Notepad++ y Atom.
+                También existen creadores de sitios web sin código como Webflow, que generan el HTML automáticamente a través de una interfaz visual, y generadores de código HTML con IA como Mobirise AI.</p>
+        </section>
+
+        <section id="utilidad-funcion">
+            <h3>¿Para qué se lo utiliza?¿Cual es su función principal?</h3>
+            <div class="imag-utilidad-funcion"></div>
+            <p>El HTML se utiliza para estructurar el contenido de las páginas web mediante el uso de etiquetas que definen elementos como texto, imágenes, enlaces, videos y tablas. Sirve como el esqueleto fundamental de un sitio web, permitiendo que los navegadores interpreten y muestren el contenido al usuario de manera organizada.
+                También se usa en conjunto con CSS para el estilo y con JavaScript para la funcionalidad dinámica.
+            <br><br>
+            La <u>función principal</u> del lenguaje HTML es <strong>estructurar</strong> y <strong>organizar</strong> el contenido de una página web, utilizando etiquetas para definir elementos como encabezados, párrafos, imágenes y enlaces. Esto proporciona el marco básico para que los navegadores muestren la información de manera 
+            coherente y los usuarios puedan navegar por ella.(Como por ejemplo, esta misma pagina web al que estas navegando...) </p>
+        </section>
+        <section>
+
+        </section>
+            
+        </div>
+     </section>
+    </main>
+    <!--FORMULARIO (COMENTARIO DE LOS USUARIOS)-->
+    <section id="comentarios">
+        <div class="seccion-formulario">
+            <h2>TE INVITAMOS A RELLENAR EL SIGUIENTE FORMULARIO</h2>
+            <h4>Te pedimos que rellenes el formulario que aparece aqui abajo,
+            también te pedimos que nos dejes tu comentarios <br>(Opinando sobre lo que te parecio estapagina web)</h4>
+            <h>Con tu respuesta nos ayudas a mejorar cada día nuestra pagina web y  también a seguir con mas usuarios</h>
+            <form action="https://formsubmit.co/lodeldavid20@gmail.com" method="POST" >
+                <!-- Campos del Formulario -->
+                <p> 
+                    <label>Nombre</label>
+                    <input type="text" name="Nombre" maxlength="20" required>
+                </p>
+
+                <p>
+                    <label>Apellido</label>
+                    <input type="text" name="Apellido" maxlength="20" required>
+                </p>
+                <p>
+                    <label>Edad</label>
+                    <input type="number" name="Edad" aria-required="true">
+                </p>
+                <p> 
+                    <label>Comentarios (OBLIGATORIO)</label>
+                    <textarea name="texto" cols="50" rows="6" spellcheck="true" required></textarea>
+                </p>
+                <p> 
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+        </div>
+    </section>
+    <footer>
+            <p>&copy;TECHNOInformation</p>
+    </footer>
+</body>
+</html>

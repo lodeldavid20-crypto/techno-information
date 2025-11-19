@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Styles/STYLES.css"/>
+    <link rel="icon" href="/Imag/TECHNO-Information.png" type="image/png">
+    <script src="/Javascript/MicodigoJS.js"></script>
+    <title> TECHNO Information</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">TECHNO Information</p>
+            <button class="menu-btn" onclick="toggleMenu()"> ≡ </button>
+        </div>
+    </header>
+
+    <!-- MENÚ LATERAL -->
+    <div id="sidebar" class="sidebar">
+        <a href="" class="close-btn" onclick="toggleMenu()">x</a>
+        <h2>TECHNO<br> Information</h2>
+        <nav>
+            <ul>
+                <li><a href="/INDEX.html">H O M E</a>
+                    <div>
+                        <ul>
+                            <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/1-INFO-HTML.html">HTML</a></li>
+                            <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/2-INFO-CSS.html">CSS</a></li>
+                            <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/3-INFO-JAVASCRIPT.html">JAVASCRIPT</a></li>
+                            <li><a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/4-INFO-PYTHON.html">PYTHON</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>  
+    </div>
+    <!-- carrousel -->
+    <div class="container-carousel">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="/Imag/descarga (2).jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                    <div class="carousel-item">
+                    <img src="/Imag/perifericos-1024x768.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Imag/Programa Código Programación Color Carácter Fondo _ Plantilla PSD Descarga Gratuita - Pikbest.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <main class="contenido-principal">
+        <!-- CONTENIDO PRINCIPAL -->
+    <section id="hero">
+        <h1>APRENDE MÁS SOBRE<br>LA PROGRAMACIÓN Y EL DESARROLLO WEB</h1>
+    </section>
+
+    <section id="aprende-mas">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <h2>AQUI APRENDERÁS LO MÁS BÁSICO SOBRE 
+                    LA INFORMATICA, LA PROGRAMACIÓN Y LA ROBÓTICA</h2>
+                <h5>El aprendizaje de la electrónica, la programación y la robótica
+                    abre las puertas al mundo de la tecnología y la innovación. 
+                    Estas tres áreas están estrechamente relacionadas: la electrónica proporciona los componentes y circuitos que dan vida a los dispositivos, la programación permite controlar su funcionamiento mediante código, y la robótica integra ambos campos para crear sistemas capaces de interactuar con su entorno. Estudiarlas fomenta el pensamiento lógico, la creatividad y la resolución de problemas, habilidades esenciales para comprender y construir
+                    as herramientas tecnológicas que impulsan el futuro.
+                </h5>    
+            </div>
+        </div>
+    </section>
+    <section id="nuestras-secciones">
+        <div class="container">
+            <h2>NUESTRAS SECCIONES</h2>
+            <div class="programas">
+                <!-- CARTA - HTML -->
+                <div class="carta"> <h3> HTML </h3> 
+                    <p>En esta sección encontraras información acerca de
+                    lo que te interesa saber sobre HTML, como por ejemplo:
+                    ¿Que significa la palabra HTML?
+                    ¿Quien fue su creador?¿Para que se lo utiliza?... 
+                    y entre otras cuestiones relacionadas.
+                    </p>
+                    <a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/1-INFO-HTML.html">
+                        <button>+ INFO</button>
+                    </a>
+                </div>
+                <!-- CARTA - CSS -->
+                <div class="carta"> <h3> CSS </h3>
+                    <p>En esta sección encontraras información acerca de
+                    lo que te interesa saber sobre CSS, como por ejemplo:
+                    ¿Que significa la palabra CSS?
+                    ¿Quien fue su creador?¿Para que se lo utiliza?... 
+                    y entre otras cuestiones relacionadas.
+                    </p>
+                    <a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/2-INFO-CSS.html">
+                        <button>+ INFO</button>
+                    </a>
+                </div>
+                <!-- CARTA - JAVASCRIPT -->
+                <div class="carta"> <h3>JAVASCRIPT</h3>
+                    <p>En esta sección encontraras información acerca de
+                    lo que te interesa saber sobre JAVASCRIPT, como por ejemplo:
+                    ¿Que significa la palabra JAVASCRIPT?
+                    ¿Quien fue su creador?¿Para que se lo utiliza?... 
+                    y entre otras cuestiones relacionadas.
+                    </p>
+                    <a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/3-INFO-JAVASCRIPT.html">
+                        <button>+ INFO</button>
+                    </a>
+                </div>
+                <!-- CARTA - PYTHON -->
+                <div class="carta"> <h3>PYTHON</h3>
+                    <p>En esta sección encontraras toda la información necesaria sobre
+                    lo que te interesa saber de el lenguaje PYTHON, como por ejemplo:
+                    ¿Que significa la palabra PYTHON?
+                    ¿Quien fue su creador?¿Para que se lo utiliza?... 
+                    y entre otras cuestiones relacionadas.
+                    </p>
+                    <a href="/Page/INFO HTML-CSS-JAVASCRIPT-PYTHON/4-INFO-PYTHON.html">
+                        <button>+ INFO</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!--FORMULARIO (COMENTARIO DE LOS USUARIOS)-->
+    <section id="comentarios">
+        <div class="seccion-formulario">
+            <h2>TE INVITAMOS A RELLENAR EL SIGUIENTE FORMULARIO</h2>
+            <h4>Te pedimos que rellenes el formulario que aparece aqui abajo,
+            también te pedimos que nos dejes tu comentarios <br>(Opinando sobre lo que te parecio esta página web)</h4>
+            <h>Con tu respuesta nos ayudas a mejorar cada día nuestra pagina web y  también a seguir con mas usuarios</h>
+            <form action="https://formsubmit.co/lodeldavid20@gmail.com" method="POST" >
+                <!-- Campos del Formulario -->
+                <p> 
+                    <label>Nombre</label>
+                    <input type="text" name="Nombre" maxlength="20" required>
+                </p>
+
+                <p>
+                    <label>Apellido</label>
+                    <input type="text" name="Apellido" maxlength="20" required>
+                </p>
+                <p>
+                    <label>Edad</label>
+                    <input type="number" name="Edad" aria-required="true">
+                </p>
+                <p> 
+                    <label>Comentarios (OBLIGATORIO)</label>
+                    <textarea name="texto" cols="50" rows="6" spellcheck="true" required></textarea>
+                </p>
+                <p> 
+                    <input type="submit" value="Enviar" >
+                </p>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+            <p>&copy;TECHNOInformation</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
